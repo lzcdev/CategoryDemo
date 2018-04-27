@@ -217,7 +217,8 @@
 				TargetAttributes = {
 					2003C6011E714E220051BD48 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 3LMBP3JJBU;
+						ProvisioningStyle = Manual;
 					};
 					2003C61A1E714E220051BD48 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -436,10 +437,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3LMBP3JJBU;
 				INFOPLIST_FILE = Category/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ljkj.Category;
+				PRODUCT_BUNDLE_IDENTIFIER = tongyongbundleid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5b555438-ff6c-4edc-873a-6656dd8c119b";
+				PROVISIONING_PROFILE_SPECIFIER = tongyong;
 			};
 			name = Debug;
 		};
@@ -447,10 +452,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3LMBP3JJBU;
 				INFOPLIST_FILE = Category/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ljkj.Category;
+				PRODUCT_BUNDLE_IDENTIFIER = tongyongbundleid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5b555438-ff6c-4edc-873a-6656dd8c119b";
+				PROVISIONING_PROFILE_SPECIFIER = tongyong;
 			};
 			name = Release;
 		};
@@ -519,6 +528,7 @@
 				2003C6311E714E220051BD48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2003C6321E714E220051BD48 /* Build configuration list for PBXNativeTarget "CategoryTests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +537,7 @@
 				2003C6341E714E220051BD48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2003C6351E714E220051BD48 /* Build configuration list for PBXNativeTarget "CategoryUITests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +546,7 @@
 				2003C6371E714E220051BD48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
