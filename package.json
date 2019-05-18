@@ -1,7 +1,7 @@
 {
   "name": "wxapp-todolist",
   "version": "1.0.0",
-  "description": "* 登陆授权 * 已购书籍 * 浏览书籍 * 评论模块 * 个人信息 * 书籍详情 * 书籍列表 * 推送消息",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
