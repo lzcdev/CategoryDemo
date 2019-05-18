@@ -1,0 +1,24 @@
+{
+  "name": "wxapp-todolist",
+  "version": "1.0.0",
+  "description": "* 登陆授权 * 已购书籍 * 浏览书籍 * 评论模块 * 个人信息 * 书籍详情 * 书籍列表 * 推送消息",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lzcdev/wxapp-todolist.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lzcdev/wxapp-todolist/issues"
+  },
+  "homepage": "https://github.com/lzcdev/wxapp-todolist#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.1",
+    "express": "^4.17.0"
+  }
+}
